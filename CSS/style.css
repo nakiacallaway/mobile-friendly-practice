@@ -1,4 +1,13 @@
 * {
     box-sizing: border-box;
   }
-  
+.topdiv {
+  background: rgb(2,52,59);
+background: linear-gradient(0deg, rgba(2,52,59,1) 0%, rgba(1,188,223,1) 20%);
+  height: 150px;
+  text-align: center;
+  color: #fff;
+}
+.sectitle {
+  color: #267d86
+}
