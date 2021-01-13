@@ -1,13 +1,27 @@
 * {
-    box-sizing: border-box;
-  }
-.topdiv {
-  background: rgb(2,52,59);
-background: linear-gradient(0deg, rgba(2,52,59,1) 0%, rgba(1,188,223,1) 20%);
-  height: 150px;
-  text-align: center;
-  color: #fff;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
-.sectitle {
-  color: #267d86
+.topdiv {
+background: rgb(2,52,59);
+background: linear-gradient(0deg, rgba(2,52,59,1) 0%, rgba(1,188,223,1) 30%);
+height: 150px;
+text-align: center;
+padding: 30px;
+color: #fff;
+}
+.sectitletop {
+color: #267d86;
+}
+.sectitlebottom {
+color: #267d86;
+  text-align: right;
+}
+
+footer {
+color: #fff;
+background: #264d66;
+text-align: center;
+height: 95px;
+padding: 35px;
 }
