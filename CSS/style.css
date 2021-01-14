@@ -3,13 +3,26 @@
   font-family: Arial, sans-serif;
 }
 .topdiv {
-background: rgb(2,52,59);
-background: linear-gradient(0deg, rgba(2,52,59,1) 0%, rgba(1,188,223,1) 30%);
 height: 150px;
 text-align: center;
 padding: 30px;
 color: #fff;
-}
+}  
+@media screen and (min-width: 480px) {
+  .topdiv {
+      background: lightgreen;
+    }
+@media screen and (min-width: 768px) {
+  .topdiv {
+    background: linear-gradient(0deg, rgba(2,52,59,1) 0%, rgba(1,188,223,1) 30%);
+  }
+  }
+@media screen and (min-width: 1024px) {
+  .topdiv {
+    background: lavender;
+  }
+
+
 .sectitletop {
 color: #267d86;
 }
